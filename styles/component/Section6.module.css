@@ -1,0 +1,35 @@
+.sectionWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    width: 100%;
+
+}
+.contentWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 80%;
+
+}
+.textWrapper{
+    width: 50%;
+}
+.textWrapper p{
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: 65px;
+    letter-spacing: 0.01em;
+    line-height: 5rem;
+    color: rgba(0, 0, 35, 0.7);
+    padding-right: 50px;
+}
+
+.imageWrapper{
+    width: 45%;
+    height: 100%;
+    position: relative;
+
+}

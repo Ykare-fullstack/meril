@@ -1,0 +1,45 @@
+.banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height:100px;
+    border-bottom: solid 2px rgba(0,0,0,0.05);
+}
+
+/*titre multicolor (voir variables.css)*/
+.styledMerilWrapper
+{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+}
+
+/*Barre de navigation TOP*/
+.navBarFrame{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+}
+.navBarButton{
+    background-color: transparent;
+    border:0;
+    font-weight:bold;
+    font-size:medium;
+    width: 20%;
+}
+
+/*SearchBar*/
+.searchMenuWrapper{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 50px;
+}
+.searchMenuWrapper button{
+    width: fit-content;
+}

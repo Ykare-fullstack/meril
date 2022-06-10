@@ -1,0 +1,31 @@
+:root{
+    /*Couleurs*/
+    --light-blue: rgba(82,158,250,1);
+    --lightest-blue:rgba(191,250,255,1);
+    --strong-orange: rgba(250,176,10,1);
+    --strong-salmon: rgba(255,116,92,1);
+    --light-yellow: rgba(255,253,230,1);
+    --strong-yellow: rgba(255,206,0,1);
+    --light-red: rgba(247,157,137,1);
+    --light-grey: rgba(40,40,40,0.1);
+    --strong-blue: rgba(78,63,255);
+    --strong-green: rgba(2,124,114,1);
+    --note-color: rgba(0,0,0,0.2);
+    --text-light: rgba(40, 40, 40, 0.6);
+
+    /*Couleurs Meril*/
+    --meril-color0: rgba(82,158,250,1);
+    --meril-color1: rgba(250,176,10,1);
+    --meril-color2: rgba(247,157,137,1);
+    --meril-color3: rgba(78,63,255);
+    --meril-color4: rgba(2,124,114,1);
+
+    /*Tailles des éléments du Dom*/
+    --icon-border-radius:50%;
+    --free-trial-button-radius: 7px;
+
+    --h1-size:90px;
+    --h2-size:45px;
+    --h3-size:22px;
+
+}

@@ -1,0 +1,53 @@
+.sectionWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 5rem;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.02);
+}
+.sectionWrapper p{
+    font-family: 'Tai Heritage Pro', serif;
+    font-size: 65px;
+    letter-spacing: 0.01em;
+    line-height: 5rem;
+    color: rgba(0, 0, 35, 0.8);
+    padding-right: 50px;
+}
+.inputArea{
+    display: flex;
+    flex-direction: row;
+
+    width: 60%;
+    height: 120px;
+    box-shadow: 0px 0px 50px 2px rgba(2, 2, 67, 0.05);
+}
+.userEmailInput{
+    width: 75%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    border: none;
+    padding-left: 15px;
+}
+.inputLabel{
+    width: 25%;
+    height: 100%;
+}
+
+.submitEmailButton{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,rgba(131,145,255),var(--light-blue));
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+    font-weight: bold;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+    border: none;
+    border-radius: 0 20px 20px 0;
+}
