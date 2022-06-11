@@ -27,8 +27,28 @@
     grid-column: 6;
     grid-row: 6;
     padding: 2.5rem;
+    transition: all 200ms ease;
 }
-
+.logoFigma:hover {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.logoSketch:hover {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.logoMistery:hover {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.logoInvision:hover {
+    transform: translateX(-20px);
+    transform: translateY(-20px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
 .logoSketch{
     display: flex;
     align-items: center;
@@ -38,7 +58,7 @@
     grid-column: 2;
     grid-row: 4;
     padding: 2rem;
-
+    transition: all 200ms ease;
 }
 .logoInvision{
     display: flex;
@@ -49,6 +69,7 @@
     grid-column: 2;
     grid-row: 6;
     padding: 3rem;
+    transition: all 200ms ease;
 }
 .logoMistery{
     display: flex;
@@ -59,6 +80,7 @@
     grid-column: 6;
     grid-row: 4;
     padding: 2rem;
+    transition: all 200ms ease;
 }
 .TTWrapper{
     grid-column: 4;

@@ -1,7 +1,6 @@
 .sectionWrapper{
     margin-top: 60px;
     display: flex;
-    width:100%;
     height:fit-content;
 }
 .imagePortfolio{
@@ -162,7 +161,7 @@
     }
     .imagePortfolio{
         align-items: center;
-        width: 600px;
+        width: 100%;
         height: 100%;
         order: 2;
     }
@@ -211,7 +210,7 @@
         align-items: center;
     }
     .sectionDescriptionWrapper{
-        width: 450px;
+        width: 100%;
         align-items: center;
         margin: 30px 0 60px 0;
         padding-left: 0;
@@ -228,7 +227,7 @@
     }
     .imagePortfolio{
         align-items: center;
-        width: 600px;
+        width: 100%;
         height: 100%;
         order: 2;
     }

@@ -16,5 +16,9 @@ const FreeTrialButton = styled.button`
         height: 50px;
         font-size:12px;
     }
+    &:hover{
+    background-color: ${prop => !prop.inverted?"white":'var(--light-blue)'};
+    color: ${prop => !prop.inverted?'var(--light-blue)':'white'};       
+    }
 `
 export default FreeTrialButton
