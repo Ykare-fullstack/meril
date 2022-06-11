@@ -1,7 +1,6 @@
 import styles from '../../styles/component/Section2.module.css'
 import TitleWrapper from '../atom/TitleWrapper'
 import Thumbnail from '../mollecule/Thumbnail'
-import ThumbnailWrapper from '../mollecule/ThumbnailWrapper'
 import Separator from '../atom/Separator'
 import Image from 'next/image'
 import thumbnail1 from '../../public/thumbnail1.png'
@@ -32,16 +31,18 @@ function Section2(){
     ]
     return(
         <div className={styles.sectionWrapper}>
-            <TitleWrapper>
-                <h2>Our Product</h2>
-            </TitleWrapper>
-            <Separator/>
-            <ThumbnailWrapper>
+            <div className={styles.sectionWrapperTop}>
+                <TitleWrapper>
+                    <h2>Our Product</h2>
+                </TitleWrapper>
+                <Separator/>
+            </div>
+
                 {thumbnailsData.map((thumbnail, index)=>(
                     <Thumbnail title={thumbnail.title} text={thumbnail.text} link={thumbnail.link} image={thumbnail.image} key={index}/>
                     ))
                 }    
-            </ThumbnailWrapper>
+
         </div>
     )
 }

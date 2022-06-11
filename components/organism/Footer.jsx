@@ -1,5 +1,11 @@
 import styles from "../../styles/component/Footer.module.css";
 import FooterList from "../mollecule/FooterList";
+import StyledMeril from "../mollecule/StyledMeril";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import { faGooglePlusG} from '@fortawesome/free-brands-svg-icons'
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faYoutube} from '@fortawesome/free-brands-svg-icons'
 
 function Footer(){
     const lists=[
@@ -22,8 +28,19 @@ function Footer(){
     ]
     return(
         <div className={styles.footerWrapper}>
-            {lists.map((list,index)=>(
-            <FooterList list={list} key={index}/>
+            <div className={styles.footerContactWrapper}>
+                <StyledMeril />
+                <span className={styles.legalText}>2018 © All rights reserved</span>
+                <div className={styles.footerBrandContactWrapper}>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faFacebook} size='1x'/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faGooglePlusG} size='1x'/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faTwitter} size='1x'/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faYoutube} size='1x'/></div>
+                </div>
+            </div>
+
+                {lists.map((list,index)=>(
+                <FooterList list={list} key={index}/>
             ))}
         </div>
     )

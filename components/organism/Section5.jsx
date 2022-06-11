@@ -8,13 +8,14 @@ import logoMistery from '../../public/logoMistery.png'
 function Section5(){
     return(
         <div className={styles.sectionWrapper}>
-            <div className={styles.background}></div>
-            <div className={styles.logoFigma}><Image src={logoFigma}/></div>
-            <div className={styles.logoInvision}><Image src={logoInvision}/></div>
-            <div className={styles.logoMistery}><Image src={logoMistery}/></div>
-            <div className={styles.logoSketch}><Image src={logoSketch}/></div>
-            <ThumbnailTemplate />
-
+            <div className={styles.sectionGrid}>
+                <div className={styles.background}></div>
+                <ThumbnailTemplate />
+                <div className={styles.logoFigma}><Image src={logoFigma}/></div>
+                <div className={styles.logoInvision}><Image src={logoInvision}/></div>
+                <div className={styles.logoMistery}><Image src={logoMistery}/></div>
+                <div className={styles.logoSketch}><Image src={logoSketch}/></div>
+            </div>
         </div>
     )
 }

@@ -6,7 +6,9 @@ import Navigation from './Navigation'
 function Banner(){
     return(
         <header className={styles.banner}>
-            <StyledMeril />
+            <div className={styles.merilWrapper}>
+                <StyledMeril />
+            </div>
             <Navigation />
             <SearchMenu />
         </header>

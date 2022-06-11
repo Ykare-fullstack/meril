@@ -1,14 +1,19 @@
 .sectionWrapper{
+    position: relative;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
     width: 100%;
     height: 850px;
     background-color: var(--strong-orange);
     margin-bottom: 60px;
 }
 .shapesWrapper{
-    width:16%;
+    position: absolute;
+    z-index: 0;
+    top: center;
+    left: 7%;
+    top:200px;
 }
 .qualityListWrapper{
     display: flex;
@@ -18,9 +23,9 @@
     background-color: white;
     margin-top: 150px;
     height:90%;
-    width: 30%;
+    width: 550px;
     border-radius: 10px;
-
+    z-index: 1;
 }
 .qualityListElement{
     display: flex;
@@ -28,8 +33,6 @@
     height: 25%;
     width: 80%;
     border-bottom: solid 2px var(--light-grey);
-
-
 }
 .qualityListElementIconFrame{
     display: flex;
@@ -59,4 +62,44 @@
     width: 40%;
     height: 90%;
     margin-top: 200px;
+}
+@media screen and (max-width: 1160px) and (min-width: 700px){
+    .imageWrapper{
+        display: none;
+    }
+    .shapesWrapper{
+        position: absolute;
+        z-index: 0;
+        top: center;
+        left: 300px;
+        top:200px;
+    }
+}
+@media screen and (max-width: 700px){
+    .imageWrapper{
+        display: none;
+    }
+    .shapesWrapper{
+        position: absolute;
+        z-index: 0;
+        top: center;
+        left: 300px;
+        top:200px;
+    }
+    .qualityListWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        margin-top: 100px;
+        height:90%;
+        width: 320px;
+        border-radius: 10px;
+        z-index: 1;
+    }
+    .qualityListElement{
+        display: flex;
+        padding-top: 1rem;
+    }
 }

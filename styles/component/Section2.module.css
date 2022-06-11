@@ -1,12 +1,21 @@
 .sectionWrapper{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     height: 1000px;
     width: 100%;
     padding-top: 100px;
     background-color: var(--light-yellow);
 
+}
+.sectionWrapperTop{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .thumbnail{
     display:flex;
@@ -14,7 +23,7 @@
     align-items:center;
     width:380px;
     height:440px;
-    margin: 0 30px 0 30px;
+    margin: 0 20px 0 20px;
     border-radius:10px;
     background-color: white;
     box-shadow: 1px 1px 40px 3px rgba(40,40,40,0.05);
@@ -48,4 +57,43 @@
     width: fit-content;
     border-bottom: solid 2px var(--light-blue);
     margin-top:25px;
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1100px) {
+    .sectionWrapper{
+        height: fit-content;
+    }
+    .sectionWrapperTop{
+        display:flex;
+        flex-direction: column;
+        align-items:center;
+        width:380px;
+        height:440px;
+        margin: 0 90px 0 90px;
+    }
+    .thumbnail{
+        margin: 0 90px 90px 90px;
+    }
+}
+@media screen and (max-width: 1100px) and  (min-width: 900px){
+    .sectionWrapper{
+        height: fit-content;
+        flex-direction: column;
+        padding-top: 50px;
+    }
+    .thumbnail{
+        margin: 40px 0 40px 0;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .sectionWrapper{
+        height: fit-content;
+        flex-direction: column;
+        padding-top: 100px;
+    }
+    .thumbnail{
+        width: 300px;
+        margin: 40px 0 40px 0;
+    }
 }

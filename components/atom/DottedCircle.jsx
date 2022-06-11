@@ -1,9 +1,10 @@
 import styled from 'styled-components'
 
 const DottedCircle = styled.div`
-    --d:4deg; /* distance between dashes */
-    --n:30;   /* number of dashes */
+    --d:10deg; /* distance between dashes */
+    --n:16;   /* number of dashes */
     --c:var(--strong-salmon); /* color of dashes */
+    position:absolute;
     width: 180px;
     height: 180px;
     display:inline-block;

@@ -14,7 +14,9 @@ a {
 * {
   box-sizing: border-box;
 }
-
+ul{
+  list-style: none;
+}
 button, input[type="submit"], input[type="reset"] {
 
   font-family: 'Open Sans', sans-serif;

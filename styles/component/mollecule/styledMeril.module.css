@@ -1,0 +1,9 @@
+/*titre multicolor (voir variables.css)*/
+
+.styledMerilWrapper
+{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+
+}

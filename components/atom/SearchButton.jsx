@@ -9,5 +9,11 @@ const SearchButton = styled.button`
     border:0;
     border-radius: var(--free-trial-button-radius);
     background-color: var(--light-blue);
+
+    @media screen and (max-width: 600px){
+        width: 40px;
+
+        font-size:15px;
+    }
 `
 export default SearchButton

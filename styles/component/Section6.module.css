@@ -4,7 +4,6 @@
     align-items: center;
     height: 1000px;
     width: 100%;
-
 }
 .contentWrapper{
     display: flex;
@@ -13,7 +12,6 @@
     align-items: center;
     height: 80%;
     width: 80%;
-
 }
 .textWrapper{
     width: 50%;
@@ -23,7 +21,7 @@
     font-size: 65px;
     letter-spacing: 0.01em;
     line-height: 5rem;
-    color: rgba(0, 0, 35, 0.7);
+    color: var(--title-dark);
     padding-right: 50px;
 }
 
@@ -31,5 +29,75 @@
     width: 45%;
     height: 100%;
     position: relative;
-
+    border-radius: 10px;
+}
+@media screen and (max-width: 1300px) and (min-width: 900px){
+    .sectionWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+    }
+    .contentWrapper{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+    }
+    .textWrapper p{
+        font-family: 'Tai Heritage Pro', serif;
+        font-size: 25px;
+        letter-spacing: 0em;
+        line-height: 4rem;
+        color: var(--title-dark);
+        padding-right: 50px;
+    }
+    .imageWrapper{
+        width: 300px;
+        height: 400px;
+        position: relative;
+    }
+}
+@media screen and (max-width: 900px){
+    .sectionWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: 100%;
+        margin-top: 80px;
+    }
+    .contentWrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        width: 80%;
+    }
+    .textWrapper{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+        max-width: 100%;
+        order:2;
+    }
+    .textWrapper p{
+        font-family: 'Tai Heritage Pro', serif;
+        font-size: 25px;
+        letter-spacing: 0em;
+        line-height: 2rem;
+        color: var(--title-dark);
+        max-width: 300px;
+    }
+    .imageWrapper{
+        width: 300px;
+        height: 400px;
+        position: relative;
+        order:1;
+    }
 }

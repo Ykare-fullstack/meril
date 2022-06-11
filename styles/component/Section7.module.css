@@ -6,28 +6,29 @@
     padding-bottom: 5rem;
     height: 500px;
     width: 100%;
-    background-color: rgba(0,0,0,0.02);
+    background-color: rgba(0,0,140,0.02);
 }
 .sectionWrapper p{
     font-family: 'Tai Heritage Pro', serif;
-    font-size: 65px;
+    font-size: 55px;
     letter-spacing: 0.01em;
     line-height: 5rem;
-    color: rgba(0, 0, 35, 0.8);
+    color: var(--title-dark);
     padding-right: 50px;
 }
 .inputArea{
     display: flex;
     flex-direction: row;
-
-    width: 60%;
-    height: 120px;
-    box-shadow: 0px 0px 50px 2px rgba(2, 2, 67, 0.05);
+    border-radius: 20px 0 0 20px;
+    width: 50%;
+    height: 100px;
+    box-shadow: 0px 0px 50px 2px rgba(0, 0, 140, 0.05);
 }
 .userEmailInput{
     width: 75%;
     height: 100%;
     border-radius: 20px 0 0 20px;
+    color: rgba(0, 0, 0, 0.3);
     outline: none;
     border: none;
     padding-left: 15px;
@@ -51,3 +52,50 @@
     border: none;
     border-radius: 0 20px 20px 0;
 }
+@media screen and (max-width: 700px) and (min-width: 500px){
+    .sectionWrapper p{
+        font-family: 'Tai Heritage Pro', serif;
+        font-size: 40px;
+        letter-spacing: 0.01em;
+        line-height: 5rem;
+        color: var(--title-dark);
+        text-align: center;
+        padding-right: 0px;
+    }
+    .sectionWrapper{
+        height: fit-content;
+        padding-top: 20px;
+    }
+    .inputArea{
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px 0 0 20px;
+        width: 320px;
+        height: 100px;
+        box-shadow: 0px 0px 50px 2px rgba(0, 0, 140, 0.05);
+    }
+}
+@media screen and (max-width: 500px){
+    .sectionWrapper p{
+        font-family: 'Tai Heritage Pro', serif;
+        font-size: 32px;
+        letter-spacing: 0.01em;
+        line-height: 5rem;
+        color: var(--title-dark);
+        text-align: center;
+        padding-right: 0px;
+    }
+    .sectionWrapper{
+        height: fit-content;
+        padding-top: 20px;
+    }
+    .inputArea{
+        display: flex;
+        flex-direction: row;
+        border-radius: 20px 0 0 20px;
+        width: 320px;
+        height: 100px;
+        box-shadow: 0px 0px 50px 2px rgba(0, 0, 140, 0.05);
+    }
+}
+
