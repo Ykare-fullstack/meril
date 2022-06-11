@@ -8,7 +8,7 @@ function Section1(){
             <div className={styles.section1NoteWrapper}><p>Secure, Scalable And Supported</p></div>
             <div className={styles.section1TitleWrapper}><h1>Beautiful & Intuitive</h1></div>
             <div className={styles.section1ButtonWrapper}><FreeTrialButton inverted={false}>START FREE TRIAL</FreeTrialButton></div>
-            <div className={styles.section1ImageWrapper}><Image src={mainImage} alt="Contenu décoratif de fond"/></div>
+            <div className={styles.section1ImageWrapper}><Image src={mainImage} alt="Contenu décoratif de fond de lapremière section"/></div>
         </div>
     )
 }

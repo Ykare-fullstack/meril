@@ -4,8 +4,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    height: 1000px;
+    height: fit-content;
     width: 100%;
+    padding-bottom: 30px;
     padding-top: 100px;
     background-color: var(--light-yellow);
 
@@ -80,6 +81,7 @@
         height: fit-content;
         flex-direction: column;
         padding-top: 50px;
+
     }
     .thumbnail{
         margin: 40px 0 40px 0;
@@ -92,6 +94,7 @@
         flex-direction: column;
         padding-top: 100px;
     }
+    
     .thumbnail{
         width: 300px;
         margin: 40px 0 40px 0;

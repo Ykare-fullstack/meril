@@ -2,23 +2,22 @@
     margin-top: 60px;
     display: flex;
     width:100%;
-    height:1000px;
+    height:fit-content;
 }
 .imagePortfolio{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 1000px;
+    width: 50%;
     height: 100%;
+
 }
 .firstRow{
-    width: 60%;
     display: flex;
     margin-left: 160px;
     justify-content: space-evenly;
     align-items: baseline;
-
 }
 .secondRow{
     width: 70%;
@@ -121,8 +120,19 @@
     }
     .imagePortfolio{
         align-items: center;
-        height: 100%;
+        width: 100%;
         order: 2;
+    }
+    .firstRow{
+        margin-left: 0;
+        justify-content: space-evenly;
+        align-items: baseline;
+        width: 70%;
+    }
+    .secondRow{
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
     }
 }
 @media screen and (max-width: 750px) and (min-width: 450px){

@@ -9,7 +9,7 @@
     display: grid;
     width: 100%;
     height: 100%;
-    grid-template-columns: 22% 11% 7% 20% 7% 11% 22%;
+    grid-template-columns: auto 160px 120px 300px 120px 160px auto;
     grid-template-rows: 80px 140px 60px 160px 30px 150px 60px 80px 80px;
 
 }
@@ -111,27 +111,28 @@
     background-size: cover;
     background-position: 90%;
 }
-@media screen and (max-width: 1280px) and (min-width: 900px){
+@media screen and (max-width: 1280px) and (min-width: 950px){
     .sectionGrid{
-        grid-template-columns: 320px 160px 120px 300px 120px 160px 320px;
+        grid-template-columns: auto 160px 80px 300px 80px 160px auto;
         grid-template-rows: 80px 140px 60px 160px 30px 150px 60px 80px 80px;
 
     }
 }
-@media screen and (max-width: 900px){
+@media screen and (max-width: 950px){
     .sectionGrid{
-        grid-template-columns: 500px 10px 120px 60px 120px 10px 500px;
+        grid-template-columns: auto 120px 60px 120px auto;
         grid-template-rows: 70px 660px 20px 120px 20px 120px 20px;
     }
     .sectionWrapper{
         margin: 70px 0 70px 0;
+
     }
     .background{
-        grid-column: 1/8;
+        grid-column: 1/6;
         grid-row: 2/8 ;
     }
     .TTWrapper{
-        grid-column: 3/6;
+        grid-column: 2/5;
         grid-row: 1/3;
         display: flex;
         flex-direction: column;
@@ -141,19 +142,19 @@
         box-shadow: 0px 0px 30px rgba(0,0,0,0.1);
     }
     .logoFigma{
-        grid-column: 5;
+        grid-column: 4;
         grid-row: 6;
     }
     .logoSketch{  
-        grid-column: 3;
+        grid-column: 2;
         grid-row: 4;    
     }
     .logoInvision{
-        grid-column: 3;
+        grid-column: 2;
         grid-row: 6;
     }
     .logoMistery{
-        grid-column: 5;
+        grid-column: 4;
         grid-row: 4;
     }
 }
