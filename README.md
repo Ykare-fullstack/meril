@@ -1,9 +1,6 @@
+
 # Projet Meril #
 [lien vers la maquette dribble](https://dribbble.com/shots/6766464-Meril-Landing-Page/attachments/1444981)
-
-## Objectif ## 
- intégrer la maquette trouvée à l'adresse précédente en deux jours
-
 ## brainstorming ##
  - 1 header (contenant une navigation)
  - 6 sections (contenant des images : printscreen +paint ?)
@@ -23,17 +20,28 @@
 - [x] Coder un textPlaceholder
 - [x] Structurer et Coder le header
 - [x] Structurer et Coder navigation 1
-- [ ] Structurer et coder navigation 2
+- [x] Structurer et coder navigation 2
 - [x] Structurer et Coder la section 1
 - [x] Structurer et Coder la section 2
 - [x] Structurer et Coder la section 3
 - [x] Structurer et Coder la section 4
 - [x] Structurer et Coder la section 5
 - [x] Structurer et Coder la section 6
-- [ ] Structurer et Coder le footer
+- [x] Structurer et Coder la section 7
+- [x] Structurer et Coder le footer
 - [x] Mapper les répétitions de données
 - [ ] regrouper les assets (thumbnails navbar... tous les .map)
-- [ ] stroke-dasharray
+- [x] stroke-dasharray
 - [ ] transitions / animations
-- [ ] responsive
+- [x] responsive
 - [ ] tweaks graphiques (formes a replacer/fond a changer sur image svg ...)
+
+## Result ##
+
+Actions à prévoir :
+- [ ] Créer un component pour chacun des élements du DOM qui le requiert 
+- [ ] Debugger l'image de la section 3
+- [ ] Trouver une police plus exact
+- [ ] Modifier les backgrounds des images de la section 4
+- [ ] Rajouter les formes géométriques (déja codées) dans la section 6
+- [ ] Transformer les icones statiques en lien dans le footer
