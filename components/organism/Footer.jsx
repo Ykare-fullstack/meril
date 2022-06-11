@@ -32,10 +32,10 @@ function Footer(){
                 <StyledMeril />
                 <span className={styles.legalText}>2018 © All rights reserved</span>
                 <div className={styles.footerBrandContactWrapper}>
-                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faFacebook} size='1x'/></div>
-                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faGooglePlusG} size='1x'/></div>
-                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faTwitter} size='1x'/></div>
-                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faYoutube} size='1x'/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faFacebook} size='1x' color='blue'/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faGooglePlusG} size='1x'color="red"/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faTwitter} size='1x'color='var(--light-blue)'/></div>
+                    <div className={styles.footerIconWrapper}><FontAwesomeIcon icon={faYoutube} size='1x'color="red"/></div>
                 </div>
             </div>
 
